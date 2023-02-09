@@ -1,0 +1,1 @@
+IF(MONTH(TODAY())=MONTH({Date of Birth}), "Happy Birthday!", "Not your birthday this month.")
