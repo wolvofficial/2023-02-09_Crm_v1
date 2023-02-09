@@ -1,0 +1,3 @@
+IF({Date of Birth} = BLANK(), "Date of birth not provided",
+    FLOOR(YEAR(TODAY()) - YEAR({Date of Birth})) & " years old"
+)
