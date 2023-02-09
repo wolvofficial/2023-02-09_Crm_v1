@@ -1,0 +1,4 @@
+YEAR(TODAY())-YEAR({Date We Met}) & " year(s) " & 
+IF(MONTH(TODAY())=MONTH({Date We Met}), 
+  IF(DAY(TODAY())<DAY({Date We Met}), "ago", ""), 
+  IF(MONTH(TODAY())<MONTH({Date We Met}), "ago", ""))
