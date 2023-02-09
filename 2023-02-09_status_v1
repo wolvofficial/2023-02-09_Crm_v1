@@ -1,0 +1,12 @@
+IF({First Name}=BLANK(),"1. requires first name",
+IF({Last Name}=BLANK(),"2. requires last name",
+IF({Phone_v3}=BLANK(),"3. requires phone input",
+IF({Emails}=BLANK(),"4. requires e-mail input",
+IF({date last contacted}=blank(),"5. Requires date last contact input",
+IF({true fan}=BLANK(),"4. requires True Fan input",
+IF({Company}=BLANK(),"5. requires company input",
+IF(URLs=BLANK(),"6. requires urls input",
+IF({date we met}=BLANK(),"5. Requires Date we met Input",
+IF({Monthly Income}=BLANK(),"7. requires monthly income"
+
+))))))))))
