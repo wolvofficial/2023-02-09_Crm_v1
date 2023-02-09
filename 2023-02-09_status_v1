@@ -1,13 +1,15 @@
-IF({First Name}=BLANK(),"1. requires first name",
-IF({Last Name}=BLANK(),"2. requires last name",
-IF({Phone_v3}=BLANK(),"3. requires phone input",
-IF({Emails}=BLANK(),"4. requires e-mail input",
-IF({Date Last Contacted}=BLANK(),"5. Requires date last contact input",
-IF({True Fan}=BLANK(),"4. requires True Fan input",
-IF({Company}=BLANK(),"5. requires company input",
-IF(URLs=BLANK(),"6. requires urls input",
-IF({Date We Met}=BLANK(),"5. Requires Date we met Input",
-IF({Monthly Income}=BLANK(),"7. requires monthly income",
-IF({Date of Birth}=BLANK(),"11. Requires date of birth input"
+IF({Date We Met}=BLANK(),"1. Requires Date we met Input",
+IF({First Name}=BLANK(),"2. requires first name",
+IF({Facebook_v1}=BLANK(),"3. requires Facebook Input",
+IF({Date Last Contacted}=BLANK(),"4. Requires date last contact input",
+IF({True Fan}=BLANK(),"5. requires True Fan input",
+IF({Last Name}=BLANK(),"6. requires last name",
+IF({Phone_v3}=BLANK(),"7. requires phone input",
+IF({Emails}=BLANK(),"8. requires e-mail input",
+IF({shoe_vsize}=BLANK(),"8. Requires Shoe Size Input",
+IF({Company}=BLANK(),"9. requires company input",
+IF(URLs=BLANK(),"10. requires urls input",
+IF({Monthly Income}=BLANK(),"11. requires monthly income",
+IF({Date of Birth}=BLANK(),"13. Requires date of birth input"
 
-)))))))))) )
+)))))))))) )))
